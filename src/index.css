@@ -1,13 +1,26 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('http://fonts.cdnfonts.com/css/sofia-pro');
+
+:root {
+	--text-color: #191a19;
+	--bg-color: #fff;
+	--burble-bg: linear-gradient(247.48deg, #51abff -13.55%, #bd00ff 108.84%);
+	--pink-bg: linear-gradient(248.96deg, #ff8951 0%, #bd00ff 100.87%);
+	--green-bg: linear-gradient(248.96deg, #ff3f3f 0%, #00ffd1 100.87%);
+	--orange-bg: linear-gradient(248.96deg, #ff8951 0%, #ff3f3f 100.87%);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Sofia Pro', sans-serif;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
 }

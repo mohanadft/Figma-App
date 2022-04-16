@@ -1,0 +1,15 @@
+.categories {
+	transition: 0.3s all ease-in-out;
+}
+
+@media (max-width: 1212px) {
+	.categories-list {
+		justify-content: center !important;
+	}
+}
+
+@media (max-width: 700px) {
+	.categories-list .category {
+		width: 100% !important;
+	}
+}

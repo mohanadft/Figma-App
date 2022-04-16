@@ -1,0 +1,10 @@
+.pre-header {
+	background: var(--burble-bg);
+}
+
+.pre-header .new {
+	color: #973eff;
+	font-weight: 700;
+	font-size: 12px;
+	letter-spacing: 0.05em;
+}

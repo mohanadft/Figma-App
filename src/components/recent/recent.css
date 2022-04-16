@@ -1,0 +1,23 @@
+.recent {
+	transition: 0.3s all ease-in-out;
+}
+
+.topics .topic {
+	width: 360px !important;
+}
+
+@media (max-width: 1413px) {
+	.recent .container .topics {
+		justify-content: center;
+	}
+}
+
+@media (max-width: 950px) {
+	.recent .container .topics {
+		flex-wrap: wrap !important;
+	}
+
+	.topics .topic {
+		width: 100% !important;
+	}
+}
