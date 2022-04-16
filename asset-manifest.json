@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Figma-App/static/css/main.b4e38fa2.css",
+    "main.js": "/Figma-App/static/js/main.be38a855.js",
+    "index.html": "/Figma-App/index.html",
+    "main.b4e38fa2.css.map": "/Figma-App/static/css/main.b4e38fa2.css.map",
+    "main.be38a855.js.map": "/Figma-App/static/js/main.be38a855.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b4e38fa2.css",
+    "static/js/main.be38a855.js"
+  ]
+}
