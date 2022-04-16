@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Figma-App/static/css/main.4025f9bf.css",
+    "main.css": "/Figma-App/static/css/main.5dd2317f.css",
     "main.js": "/Figma-App/static/js/main.be38a855.js",
     "index.html": "/Figma-App/index.html",
-    "main.4025f9bf.css.map": "/Figma-App/static/css/main.4025f9bf.css.map",
+    "main.5dd2317f.css.map": "/Figma-App/static/css/main.5dd2317f.css.map",
     "main.be38a855.js.map": "/Figma-App/static/js/main.be38a855.js.map"
   },
   "entrypoints": [
-    "static/css/main.4025f9bf.css",
+    "static/css/main.5dd2317f.css",
     "static/js/main.be38a855.js"
   ]
 }
