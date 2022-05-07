@@ -1,13 +1,21 @@
-import React from 'react'
-import './footer.css'
+import React, { useContext } from 'react'
+import { ThemeContext, style } from '../../App'
 
 const Footer = () => {
 	const links = [
 		['Code', 'Design', 'Prototyping'],
 		['Web3', 'React', 'Crypto']
 	]
+	const { darkTheme } = useContext(ThemeContext)
+
 	return (
-		<footer className="pt-20">
+		<footer
+			className="pt-20"
+			style={{
+				...style(darkTheme),
+				transition: '0.3s all ease-in-out'
+			}}
+		>
 			<div className="container flex justify-center items-center flex-wrap text-center gap-20">
 				<div>
 					<h2 className="text-lg">Tutorials</h2>
