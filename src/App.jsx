@@ -9,6 +9,7 @@ import {
 } from './components'
 
 import { MdDarkMode, MdLightMode } from 'react-icons/md'
+import Footer from './components/footer/Footer'
 
 export const ThemeContext = createContext()
 
@@ -41,6 +42,7 @@ const App = () => {
 				<Top />
 				<Recent />
 				<Categories />
+				<Footer />
 			</>
 		</ThemeContext.Provider>
 	)

@@ -21,3 +21,8 @@
 		width: 100% !important;
 	}
 }
+
+.recent .header,
+.categories .header {
+	margin-bottom: 17px;
+}

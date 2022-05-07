@@ -32,18 +32,18 @@ const Recent = () => {
 	return (
 		<section className="recent" style={style(darkTheme)}>
 			<div className="container">
-				<div className="header flex justify-between items-center">
+				<div className="header flex justify-between items-center mb-5">
 					<h3 className="font-semibold">Recent</h3>
 					<a href="/" className="text-blue-500 text-sm">
 						See all
 					</a>
 				</div>
-				<div className="topics flex justify-between items-stretch flex-wrap gap-5 py-8">
+				<div className="topics flex justify-between items-stretch flex-wrap gap-5">
 					{topics.map(topic => {
 						return (
 							<div className="topic" key={topic.id}>
 								<div
-									className="bg flex justify-center items-center rounded-t-md h-14"
+									className="bg flex justify-center items-center rounded-t-md"
 									style={{
 										background: `var(${topic.bgColorVar})`
 									}}

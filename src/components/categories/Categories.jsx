@@ -11,7 +11,7 @@ const Categories = () => {
 		{ id: 3, title: 'Prototyping', bgColorVar: '--orange-bg' }
 	]
 	return (
-		<section className="categories py-10" style={style(darkTheme)}>
+		<section className="categories" style={style(darkTheme)}>
 			<div className="container">
 				<div className="header flex justify-between items-center">
 					<h3 className="font-semibold">Categories</h3>
